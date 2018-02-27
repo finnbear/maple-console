@@ -31,7 +31,7 @@ def warn(message, ok):
 	sys.stdout.write("]\n")
 	sys.stdout.flush()
 
-time.sleep(1);
+time.sleep(2);
 
 info("BIOS(C)2020 Canada Systems, Inc. ")
 info("BIOS Rev: 1.0.0")
@@ -64,7 +64,7 @@ warn("Loading startup script...", True)
 clear()
 
 #     [--------------------------------------]
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in Canada", "green"))
 print("")
 print("do")
@@ -76,7 +76,7 @@ print("")
 print("")
 print("______________________________________")
 
-for j in range(1):
+for j in range(10):
 	for i in range(38):
 		sys.stdout.write(".")
 		time.sleep(0.1)
@@ -87,7 +87,7 @@ for j in range(1):
 	sys.stdout.write("\r")
 	sys.stdout.flush()
 
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in .,.,..", "green"))
 print(colored("          Canada", "green"))
 print("do")
@@ -101,10 +101,10 @@ print("______________________________________")
 sys.stdout.write(".")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in  ,. .", "green"))
 print(colored("          .,.,.,", "green"))
 print("do" + colored("        Canada", "green"))
@@ -118,10 +118,10 @@ print("______________________________________")
 sys.stdout.write("..")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in   .", "green"))
 print(colored("          . .. .", "green"))
 print("do" + colored("        '..,.,", "green"))
@@ -135,10 +135,10 @@ print("______________________________________")
 sys.stdout.write("...")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print(colored("            .  .", "green"))
 print("do" + colored("        ' .. .", "green"))
@@ -152,10 +152,10 @@ print("______________________________________")
 sys.stdout.write("....")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print("")
 print("do")
@@ -169,10 +169,10 @@ print("______________________________________")
 sys.stdout.write(".....")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print("")
 print("do")
@@ -186,10 +186,10 @@ print("______________________________________")
 sys.stdout.write("......")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print("")
 print("do")
@@ -203,10 +203,10 @@ print("______________________________________")
 sys.stdout.write(".......")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print("")
 print("do")
@@ -220,10 +220,10 @@ print("__________" + colored("Child", "yellow") + "_______________________")
 sys.stdout.write("........")
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print("")
 print("do")
@@ -237,10 +237,10 @@ print("______________________________________")
 sys.stdout.write("......... " + colored("Child", "yellow"))
 sys.stdout.flush()
 
-time.sleep(0.1)
+time.sleep(0.5)
 
 sys.stdout.write("\n")
-print("#!/bin/robolang")
+print("#!/bin/robot")
 print(colored("# Made in", "green"))
 print("")
 print("do")
